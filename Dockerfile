@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER TINI
 
-ENV HAHA HAHA
+ENV jsasfafjaja HAHA
 
 RUN apt-get update && \
 	apt-get install -y wget && \
