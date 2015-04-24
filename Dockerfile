@@ -14,7 +14,7 @@ RUN apt-get update && \
 	apt-get install -y python-pip && \
 	pip install pymongo 
 
-RUN wget https://storage.googleapis.com/golang/go1.4.2.linux-amd64.tar.gz
+RUN wget https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.0.tar.xz
 
 ADD ./config /config
 
